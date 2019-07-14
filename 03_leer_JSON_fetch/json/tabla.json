@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nombre": "Harry",
+        "email": "harry@yastic.ts",
+        "estado": false
+    },
+    {
+        "id": 2,
+        "nombre": "Debra",
+        "email": "deb@yastic.ts",
+        "estado": false
+    },
+    {
+        "id": 3,
+        "nombre": "Dexter",
+        "email": "dex@yastic.ts",
+        "estado": true
+    },
+    {
+        "id": 4,
+        "nombre": "Rita",
+        "email": "rita@yastic.ts",
+        "estado": true
+    }
+]
