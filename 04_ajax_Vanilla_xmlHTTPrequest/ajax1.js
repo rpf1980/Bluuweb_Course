@@ -1,9 +1,10 @@
 console.log('activo');
 
-document.querySelector('#boton').addEventListener('click', traerDatos());
+document.querySelector('#boton').addEventListener('click', traerDatos);
 
 function traerDatos() {
-    //console.log('función activada');
+
+    //console.log('function activada');
 
     const xhttp = new XMLHttpRequest();
 
@@ -11,9 +12,9 @@ function traerDatos() {
 
     xhttp.send();
 
-    xhttp.onreadystatechange = function(){
+    xhttp.onreadystatechange = function () {
 
-        if(this.readyState == 4 && this.readyState == 200) {
+        if (this.readyState == 4 && this.status == 200) {
 
             console.log(this.responseText);
         }
